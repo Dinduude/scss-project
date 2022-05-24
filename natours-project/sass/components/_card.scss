@@ -18,7 +18,7 @@
         box-shadow: 0 1.5rem 4rem rgba($color: $color-black, $alpha: .15);
 
         &--front {
-            background-color: $color-white;
+            background-color: $color-white; 
         }
 
         &--back {
@@ -59,17 +59,17 @@
         
         &--1 {
             background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark),
-            url(/images/nat-5.jpg);
+            url(/natours-project/images/nat-5.jpg);
         }
 
         &--2 {
             background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark),
-            url(/images/nat-6.jpg);
+            url(/natours-project/images/nat-6.jpg);
         }
 
         &--3 {
             background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark),
-            url(/images/nat-7.jpg);
+            url(/natours-project/images/nat-7.jpg);
         }
 
     }
@@ -134,6 +134,8 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        width: 90%;
+        text-align: center;
     }
     &__price-box {
         text-align: center;
